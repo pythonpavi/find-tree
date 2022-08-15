@@ -1,0 +1,13 @@
+row = int(input("enter the the row value here:"))
+col = int(input("enter yhe colm value here:"))
+mango = int(input("enter the mango tree place:"))
+l = []
+for x in range((row*2)-(row-1),(row*2)+1):
+    l.append(x)
+for y in range((row*(col-1))-(row-1),(row*(col-1))+1):
+    l.append(y)
+print(l)
+if mango in l:
+    print("yes this place had mango tree")
+else:
+    print("no here there is no mango tree")
