@@ -1,3 +1,13 @@
+# In this field, After the first coloum and bebore the last coloum is planted mango tree  
+#this is used to find the mango tree place
+    # * * * * * * * * * * 
+    # * * * * * * * * * * 
+    # * * * * * * * * * * 
+    # * * * * * * * * * * 
+    # * * * * * * * * * *
+    # * * * * * * * * * * 
+
+
 row = int(input("enter the the row value here:"))
 col = int(input("enter yhe colm value here:"))
 mango = int(input("enter the mango tree place:"))
